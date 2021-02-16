@@ -123,6 +123,7 @@ function init() {
       ${response.email}
       `;
       console.log(text);
+      writeToFile("README.md", text);
     });
 }
 
