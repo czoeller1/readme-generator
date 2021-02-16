@@ -1,6 +1,6 @@
 # Readme Generator 
 ![license](https://img.shields.io/static/v1?label=license&message=MIT&color=success)
-![demo video](https://github.com/czoeller1/readme-generator/blob/main/readme%20demo.mp4)
+https://github.com/czoeller1/readme-generator/blob/main/readme%20demo.mp4
 ## Description
 
 Creates a custom readme file based on user input
