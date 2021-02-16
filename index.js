@@ -101,7 +101,11 @@ function init() {
 
       ## License
 
-      ${response.license}
+      This project is ${
+        response.license == "None"
+          ? "unlicensed"
+          : `covered under the ${response.license} license`
+      }
 
       ## Contributing
 
