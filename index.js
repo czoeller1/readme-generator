@@ -50,7 +50,7 @@ function init() {
       {
         type: "list",
         message: "What is your project's License?",
-        choices: [],
+        choices: ["MIT", "GNU GPLv3", "Apache License 2.0", "None"],
         name: "license",
       },
       {
