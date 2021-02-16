@@ -83,12 +83,12 @@ function init() {
 ${response.description}
 
 ## Table of Contents
-[Installation](#installation)
-[Usage](#usage)
-[License](#license)
-[Contributing](#contributing)
-[Tests](#test)
-[Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#test)
+* [Questions](#questions)
 
 ## Installation
 
@@ -117,9 +117,9 @@ ${response.tests}
 ## Questions
 
 Contact me:
-[Github](https://github.com/${response.gitName})
+* [Github](https://github.com/${response.gitName})
 
-${response.email}`;
+* ${response.email}`;
       console.log(text);
       writeToFile("README.md", text);
     });
