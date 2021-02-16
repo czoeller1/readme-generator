@@ -1,41 +1,41 @@
+# Readme Generator
 
-      # Readme Generator
-      ## Description
+## Description
 
-      A program that automatically creates readme files based on user input
+A program that generates readme files based on user input
 
-      ## Table of Contents
-      [Installation](#installation)
-      [Usage](#usage)
-      [License](#license)
-      [Contributing](#contributing)
-      [Tests](#test)
-      [Questions](#questions)
+## Table of Contents
 
-      ## Installation
+[Installation](#installation)
+[Usage](#usage)
+[License](#license)
+[Contributing](#contributing)
+[Tests](#test)
+[Questions](#questions)
 
-      npm i
+## Installation
 
-      ## Usage
+npm i
 
-      node index.js
+## Usage
 
-      ## License
+node index.js
 
-      This project is covered under the MIT license
+## License
 
-      ## Contributing
+This project is covered under the MIT license
 
-      [Guidelines](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
+## Contributing
 
-      ## Tests
+[Guidelines](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
 
-      npm run test
+## Tests
 
-      ## Questions
+npm run test
 
-      Contact me:
-      [Github](https://github.com/czoeller1)
+## Questions
 
-      charles.zoeller1@gmail.com
-      
+Contact me:
+[Github](https://github.com/czoeller1)
+
+charles.zoeller1@gmail.com

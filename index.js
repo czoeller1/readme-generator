@@ -77,51 +77,49 @@ function init() {
       console.log(response);
       //   Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
       //  license badge  ![APM](https://img.shields.io/apm/l/vim-mode)
-      let text = `
-      # ${response.title}
-      ## Description
+      let text = `# ${response.title}
+## Description
 
-      ${response.description}
+${response.description}
 
-      ## Table of Contents
-      [Installation](#installation)
-      [Usage](#usage)
-      [License](#license)
-      [Contributing](#contributing)
-      [Tests](#test)
-      [Questions](#questions)
+## Table of Contents
+[Installation](#installation)
+[Usage](#usage)
+[License](#license)
+[Contributing](#contributing)
+[Tests](#test)
+[Questions](#questions)
 
-      ## Installation
+## Installation
 
-      ${response.install}
+${response.install}
 
-      ## Usage
+## Usage
 
-      ${response.usage}
+${response.usage}
 
-      ## License
+## License
 
-      This project is ${
+This project is ${
         response.license == "None"
           ? "unlicensed"
           : `covered under the ${response.license} license`
       }
 
-      ## Contributing
+## Contributing
 
-      ${contribution(response.contribution)}
+${contribution(response.contribution)}
 
-      ## Tests
+## Tests
 
-      ${response.tests}
+${response.tests}
 
-      ## Questions
+## Questions
 
-      Contact me:
-      [Github](https://github.com/${response.gitName})
+Contact me:
+[Github](https://github.com/${response.gitName})
 
-      ${response.email}
-      `;
+${response.email}`;
       console.log(text);
       writeToFile("README.md", text);
     });
