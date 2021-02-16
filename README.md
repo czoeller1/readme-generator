@@ -1,11 +1,9 @@
-# Readme Generator
-
+# Readme Generator ![license](https://img.shields.io/static/v1?label=license&message=MIT)
 ## Description
 
-A program that generates readme files based on user input
+Creates a custom readme file based on user input
 
 ## Table of Contents
-
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
@@ -31,7 +29,7 @@ This project is covered under the MIT license
 
 ## Tests
 
-npm run test
+N/A
 
 ## Questions
 

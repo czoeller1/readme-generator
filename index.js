@@ -77,7 +77,11 @@ function init() {
       console.log(response);
       //   Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
       //  license badge  ![APM](https://img.shields.io/apm/l/vim-mode)
-      let text = `# ${response.title}
+      let text = `# ${
+        response.title
+      } ![license](https://img.shields.io/static/v1?label=license&message=${
+        response.license
+      })
 ## Description
 
 ${response.description}
