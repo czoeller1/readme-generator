@@ -1,6 +1,6 @@
 
-      #Readme Generator
-      ##Description
+      # ReadmeGenerator
+      ## Description
 
       A program that automatically creates readme files based on user input
 
